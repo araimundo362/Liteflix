@@ -1,0 +1,15 @@
+import { NextPage } from "next";
+import styles from "./{{ pascalCase pageRoute}}Page.module.scss";
+
+
+const {{ pascalCase pageRoute }}Page: NextPage = () => {
+  return (
+    <div
+      className={ styles.{{ snakeCase pageRoute }} }
+    >
+      {{ pascalCase pageRoute }}Page works!
+    </div>
+  )
+}
+
+export default {{ pascalCase pageRoute }}Page;

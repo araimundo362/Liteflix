@@ -1,0 +1,16 @@
+import React from "react";
+import { {{ pascalCase componentName }}Props } from './types';
+import styles from "./{{ pascalCase componentName}}.module.scss";
+
+
+const {{ pascalCase componentName }}: React.FC<{{ pascalCase componentName }}Props> = () => {
+  return (
+    <div
+      className={ styles.{{ snakeCase componentName }} }
+    >
+      {{ pascalCase componentName }} works!
+    </div>
+  )
+}
+
+export default {{ pascalCase componentName }};
