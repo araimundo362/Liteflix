@@ -1,4 +1,7 @@
 import { NextPage } from "next";
+
+import Header from '../../components/Header';
+
 import styles from "./HomePage.module.scss";
 
 
@@ -7,7 +10,7 @@ const HomePage: NextPage = () => {
     <div
       className={ styles.home }
     >
-      HomePage works!
+      <Header />
     </div>
   )
 }
