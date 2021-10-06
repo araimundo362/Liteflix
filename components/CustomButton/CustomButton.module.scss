@@ -1,0 +1,11 @@
+.custom_button {
+    display: flex;
+    align-items: center;
+
+    &__label {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 4px;
+    }
+}
